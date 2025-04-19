@@ -4,8 +4,8 @@ void	ft_usage(char *program_name)
 {
 	printf("\n           %sPHILOSOPHERS USAGE%s           \n\n", CYAN, RESET);
 	printf("%sError:%s Invalid arguments\n", RED, RESET);
-	printf("%sUsage:%s %s %s<philos> <time_die> <time_eat> <time_sleep> [meals]%s\n\n", 
-		GREEN, RESET, program_name, BLUE, RESET);
+	printf("%sUsage:%s %s %s<philos> <time_die>%s", GREEN, RESET, program_name, BLUE, RESET);
+	printf(" %s<time_eat> <time_sleep> [meals]%s\n\n", BLUE, RESET);
 	printf("%sParameters:%s\n", MAGENTA, RESET);
 	printf("  %s<philos>%s     : Number of philosophers and forks\n", BLUE, RESET);
 	printf("  %s<time_die>%s   : Time in ms until a philosopher dies without eating\n", BLUE, RESET);
@@ -16,7 +16,7 @@ void	ft_usage(char *program_name)
 
 int main(int ac, char **av)
 {
-    if(ac != 4 || ac != 5)
+    if (ac != 4 || ac != 5)
     {
         ft_usage(av[0]);
         return (0);

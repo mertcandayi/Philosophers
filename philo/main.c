@@ -2,7 +2,7 @@
 
 void	ft_usage(char *program_name)
 {
-	printf("\n           %sPHILOSOPHERS USAGE%s           \n\n", YELLOW, CYAN);
+	printf("\n           %sPHILOSOPHERS USAGE%s           \n\n", CYAN, RESET);
 	printf("%sError:%s Invalid arguments\n", RED, RESET);
 	printf("%sUsage:%s %s %s<philos> <time_die> <time_eat> <time_sleep> [meals]%s\n\n", 
 		GREEN, RESET, program_name, BLUE, RESET);

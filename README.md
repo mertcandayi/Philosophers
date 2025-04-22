@@ -1,4 +1,4 @@
-<h1 align="center">Philosophers</h1>🍜
+<h1 align="center">🍜 Philosophers</h1>
 
 # 🤵🏻‍♂️ Filozofların Akşam Yemeği (Dining Philosophers)
 
